@@ -70,14 +70,14 @@ iframe {
   display: block;
   color: white;
   text-align: center;
-  font-size:3.3vw;
+  font-size:5vw;
   padding: 1vw 1.25vw;
   text-decoration: none;
 }
 
 @media screen and (min-width:800px) {
   .nav-bar li a {
-    font-size:30px;
+    font-size:50px;
   }
 }
 
