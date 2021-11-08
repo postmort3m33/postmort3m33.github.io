@@ -47,6 +47,7 @@ video {
 
 iframe {
   display:block;
+  width:75vw;
   margin: 0 auto;
 }
 
