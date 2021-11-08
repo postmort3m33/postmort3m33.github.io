@@ -1,0 +1,26 @@
+
+
+
+        <h2>Example of an Image that scales with the window size.</h2>
+		<img src="media/images/img1_2024px.jpg" style="max-width:100%;height:auto">
+		<br>
+		<hr>
+		<h2>Example of an Image that uses different media sources for different windows sizes.</h2>
+		<picture>
+			<source srcset="media/images/img1_600px.jpg" media="(max-width: 600px)">
+			<source srcset="media/images/img1_1024px.jpg" media="(max-width: 1024px)">
+			<source srcset="media/images/img1_2024px.jpg">			
+			<img src="media/images/img1_2024px.jpg" alt="Flowers" style="max-width:100%;height:auto;"> 
+		</picture> 
+		<br>
+		<hr>
+		<h2>Example of using Media Queries to change content layout.</h2>
+		<div class="left">
+		<p>Left Menu</p>
+		</div>
+		<div class="main">
+		<p>Main Content</p>
+		</div>
+		<div class="right">
+		<p>Right Content</p>
+		</div>
